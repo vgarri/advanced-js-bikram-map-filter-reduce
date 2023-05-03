@@ -31,7 +31,7 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 
 - [ ] 3.- Crea un segundo array que contenga solo los los impares 
 
-````
+```
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
