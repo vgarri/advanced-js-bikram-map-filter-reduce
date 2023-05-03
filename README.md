@@ -13,6 +13,8 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 
 ## Iteraciones :crossed_swords: Pair Programming :crossed_swords: ##
 
+(Abre index.html para ver el resultado de los tests)
+
 ### Map ###
 
 - [ ] 1.- Dado el array **numbers** cuyo valor sea [4, 5, 6, 7, 8, 9, 10], crea una función **elevados** que devuelva un array con el cuadrado de cada uno de los elementos.
