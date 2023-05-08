@@ -57,7 +57,7 @@ const staff = [
 // Resultado esperado
 /*
   [
-    'Pepe es TheBoss y le gusta leer y ver pelis',
+    'Pepe es The Boss y le gusta leer y ver pelis',
     'Ana es becaria y le gusta nadar y bailar',
     'Luis es programador y le gusta dormir y comprar',
     'Ana es becaria y le gusta nadar y bailar',
@@ -85,7 +85,7 @@ const inventory = [
     price: 199
   },
   {
-    name: 'TV Samsung,
+    name: 'TV Samsung',
     price: 459
   },
   {
