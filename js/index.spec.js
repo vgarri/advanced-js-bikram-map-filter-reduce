@@ -73,14 +73,14 @@ describe('Ejercicios map', function () {
 
 
     describe(`Ejercicio 3. Dado el array staff, generar un segundo array staffDescriptions con el siguiente resultado [
-    'Pepe es TheBoss y le gusta leer y ver pelis',
+    'Pepe es The Boss y le gusta leer y ver pelis',
     'Ana es becaria y le gusta nadar y bailar',
     'Luis es programador y le gusta dormir y comprar',
     'Carlos es secretario y le gusta futbol y queso'
 ] `, function () {
         it(`La variable result3 devuelve el array correcto`, function () {
             expect(result3).toEqual([
-                'Pepe es TheBoss y le gusta leer y ver pelis',
+                'Pepe es The Boss y le gusta leer y ver pelis',
                 'Ana es becaria y le gusta nadar y bailar',
                 'Luis es programador y le gusta dormir y comprar',
                 'Carlos es secretario y le gusta futbol y queso'
