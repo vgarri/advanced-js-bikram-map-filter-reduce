@@ -128,6 +128,7 @@ describe('Ejercicios filter', function () {
         })
 
     describe('Ejercicio 5 - Dado el array foodList2, genera un segundo array result5 que filtre los platos veganos y saque una sentencia como la del ejemplo'
+    
         , function () {
             it('El Array foodList2 está declarado', function () {
                 expect(foodList2).toEqual([

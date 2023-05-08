@@ -68,14 +68,39 @@ const staff = [
 
 ### Filter ###
 
-- [ ] 4.- Crea un segundo array que contenga solo los los impares 
+- [ ] 4.- Crea un segundo array result4 a partir del array numbers2 que devuelva solo los impares
 
 ```
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```
+
+- [ ] 5.- Dado el array foodList2, genera un segundo array result5 que filtre los platos veganos y saque una sentencia como la del ejemplo
+
+  'Que rico Tempeh me voy a comer!',
+'Que rica Tofu burguer me voy a comer!'
+
+```
+const foodList2 =[
+{
+  name: 'Tempeh',
+  isVeggie: true
+},
+{
+  name: 'Cheesbacon burguer',
+  isVeggie: false
+},
+{
+  name: 'Tofu burguer',
+  isVeggie: true
+},
+{
+  name: 'Entrecot',
+  isVeggie: false
+}];
 ```
 
 
-- [ ] 5.- Dado el array **inventory**, devolver un array con los nombres de los elementos que valgan más de 300 euros.
+- [ ] 6.- Dado el array **inventory**, devolver un array con los nombres de los elementos que valgan más de 300 euros.
 
 ```
 
