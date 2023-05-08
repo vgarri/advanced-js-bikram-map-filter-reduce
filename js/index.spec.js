@@ -128,7 +128,7 @@ describe('Ejercicios filter', function () {
         })
 
     describe('Ejercicio 5 - Dado el array foodList2, genera un segundo array result5 que filtre los platos veganos y saque una sentencia como la del ejemplo'
-    
+
         , function () {
             it('El Array foodList2 está declarado', function () {
                 expect(foodList2).toEqual([
@@ -203,57 +203,82 @@ describe('Ejercicios reduce', function () {
 
     })
     describe('Ejercicio 8 - Concatena todos los elementos del array con reduce para que devuelva una sola frase en la variable result8', function () {
-        it('El array sentenceElements está declarado', function () {
-            expect(sentenceElements).toEqual([
-                'Me',
-                'llamo',
-                'y',
-                'quiero',
-                'sentir',
-                'la',
-                'fuerza',
-                'con',
-                'javascript'
-            ])
-        })
-        //TODO allow any value for name 
-        it('La variable result9 devuelve el resultado correcto', function () {
-            expect(result8).toEqual('Me llamo pepe y quiero sentir la fuerza con javascript'
 
-            )
+        it('Posicion 0 correcta', function () {
+            expect(sentenceElements[0]).toEqual('Me')
         })
+
+        it('Posicion 1 correcta', function () {
+            expect(sentenceElements[1]).toEqual('llamo')
+        })
+
+        it('Posicion 3 correcta', function () {
+            expect(sentenceElements[3]).toEqual('y')
+        })
+
+        it('Posicion 3 correcta', function () {
+            expect(sentenceElements[4]).toEqual('quiero')
+        })
+
+        it('Posicion 4 correcta', function () {
+            expect(sentenceElements[5]).toEqual('sentir')
+        })
+
+        it('Posicion 5 correcta', function () {
+            expect(sentenceElements[6]).toEqual('la')
+        })
+
+        it('Posicion 6 correcta', function () {
+            expect(sentenceElements[7]).toEqual('fuerza')
+        })
+
+        it('Posicion 7 correcta', function () {
+            expect(sentenceElements[8]).toEqual('con')
+        })
+
+        it('Posicion 8 correcta', function () {
+            expect(sentenceElements[9]).toEqual('javascript')
+        })
+
     })
-    describe('Ejercicio 9 - Obtener el monto total de los elementos que pertenecen a catergory "code" en la variable result9', function () {
-        it('La variable result9 devuelve el resultado esperado', function () {
-            expect(result9).toEqual(60)
-        });
-        it('El array books está declarado', function () {
-            expect(books).toEqual([
-                {
-                    name: ' JS for dummies',
-                    author: 'Emily A. Vander Veer',
-                    price: 20,
-                    category: 'code'
-                },
-                {
-                    name: 'Don Quijote de la Mancha',
-                    author: 'Cervantes',
-                    price: 14,
-                    category: 'novel'
-                },
-                {
-                    name: 'Juego de tronos',
-                    author: 'George R. Martin',
-                    price: 32,
-                    category: 'Fantasy'
-                },
-                {
-                    name: 'javascript the good parts',
-                    author: 'Douglas Crockford',
-                    price: 40,
-                    category: 'code'
-                }
-            ])
-        })
+})
+//TODO allow any value for name 
+it('La variable result9 devuelve el resultado correcto', function () {
+    expect(result8).toEqual(`Me llamo ${sentenceElements[2]} y quiero sentir la fuerza con javascript`
+
+    )
+})
+
+describe('Ejercicio 9 - Obtener el monto total de los elementos que pertenecen a catergory "code" en la variable result9', function () {
+    it('La variable result9 devuelve el resultado esperado', function () {
+        expect(result9).toEqual(60)
+    });
+    it('El array books está declarado', function () {
+        expect(books).toEqual([
+            {
+                name: ' JS for dummies',
+                author: 'Emily A. Vander Veer',
+                price: 20,
+                category: 'code'
+            },
+            {
+                name: 'Don Quijote de la Mancha',
+                author: 'Cervantes',
+                price: 14,
+                category: 'novel'
+            },
+            {
+                name: 'Juego de tronos',
+                author: 'George R. Martin',
+                price: 32,
+                category: 'Fantasy'
+            },
+            {
+                name: 'javascript the good parts',
+                author: 'Douglas Crockford',
+                price: 40,
+                category: 'code'
+            }
+        ])
     })
 })
