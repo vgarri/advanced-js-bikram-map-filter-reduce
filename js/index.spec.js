@@ -35,7 +35,7 @@ describe('Ejercicios map', function () {
 
 
 
-    describe('Ejercicio 1. Dado el array numbers crear otro llamado "elevados" que sea el resultado de elevar cada número a si mismo.', function () {
+    describe('Ejercicio 1. Dado el array numbers crear una función llamada "elevados" que sea el resultado de elevar cada número a si mismo.', function () {
 
         it('El array numbers está declarado', function () {
             expect(numbers)
